@@ -1,0 +1,88 @@
+@charset "UTF-8"
+
+*{
+    margin: 0px;
+    border: 0px;
+}
+ 
+body{
+    background-color: rgb(207, 207, 207);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:  rgb(129, 129, 129);
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+
+    text-align: left;
+    padding: 2;
+    margin: 5px;
+}
+nav>a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+a:hover{
+background-color: rgb(141, 141, 141);
+border-radius: 5px;
+transition-duration: 0.5s;
+text-decoration: underline;
+
+}
+h1{
+background-image: linear-gradient(to right, rgb(165, 165, 165), transparent);
+border-radius: 5px;
+text-align: center;
+
+}
+p{
+    font-size: 1.1em;
+    text-align: justify;
+   
+}
+p>a{
+
+color: rgb(0, 0, 0);
+font-weight: bold;
+list-style-type: '\2714\00A0\00A0';
+}
+h1>p>a.hover{
+    background-color: rgb(129, 129, 129);
+}
+
+ul{
+    background-color: gray;
+    border-radius:  20px;
+    list-style-position: inside;
+    columns: 2;
+   padding: 5px;
+   
+   }
+   footer{
+    background-color: rgb(129, 129, 129);
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+
+   }
+   ul>li>a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+   }
+   ul>li>a:hover{
+    background-color: rgb(202, 202, 202);
+    border-radius: 5px;
+    text-decoration: underline;
+    }
+    main{
+        background-color: rgb(129, 129, 129);
+        border-radius: 5px
+    }
+    
+    
